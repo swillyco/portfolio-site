@@ -4,7 +4,7 @@
     -moz-perspective: 150rem;
     -webkit-perspective: 150rem;
     position: relative;
-    height: 40rem;    
+    height: 40rem;
 
     &__side {
         color: #fff;
@@ -62,11 +62,11 @@
         height: 12rem;
         background-blend-mode: screen;
         -moz-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-        -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);        
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
         clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-        
+
         &--1 {
-            background-image: linear-gradient(to right bottom, $color-card-1-primary, $color-card-1-secondary), 
+            background-image: linear-gradient(to right bottom, $color-card-1-primary, $color-card-1-secondary),
             url(../img/gears.png);
         }
         &--2 {
@@ -129,7 +129,7 @@
     &__details {
         padding: 1rem 3rem;
         color: darkslategrey;
-        
+
         ul {
             list-style: none;
             width: 80%;
@@ -200,7 +200,7 @@
 
     @include respond(tab-port) {
          height: auto;
-        border-radius: 3px;        
+        border-radius: 3px;
         background-color: #fff;
         box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
         margin: 0 3rem;

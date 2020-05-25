@@ -20,7 +20,7 @@
 
     <header class="header">
         <div class="header__logo-box">
-            <img src="img/logo-white.png" alt="Aaron" class="header__logo">
+            <img src="img/logo-white.png" alt="Will" class="header__logo">
         </div>
         <div class="header__text-box">
             <h1 class="heading-primary">
@@ -61,11 +61,15 @@
                     </div>
                 </div>
             </div>
-
         </section>
 
+
+
+
+        <!-- Skills Section | Front End, Server, Database, Deployment -->
         <section class="section-features">
             <div class="row">
+                <!-- Front End Skills-->
                 <div class="col-1-of-4">
                     <div class="feature-box">
                         <i class="feature-box__icon icon-basic-webpage"></i>
@@ -75,11 +79,11 @@
                                 <li>HTML5</li>
                                 <li>CSS3 | SASS</li>
                                 <li>JavaScript</li>
-                                <li>React | Redux</li>
                             </ul>
                         </p>
                     </div>
                 </div>
+                <!-- Server Skills-->
                 <div class="col-1-of-4">
                     <div class="feature-box">
                         <i class="feature-box__icon icon-basic-share"></i>
@@ -88,26 +92,27 @@
                             <ul>
                                 <li>NodeJS</li>
                                 <li>Express</li>
-                                <li>Koa</li>
                                 <li>Python</li>
+                                <li>Django | Flask</li>
                             </ul>
                         </p>
                     </div>
                 </div>
+                <!-- Database Skills-->
                 <div class="col-1-of-4">
                     <div class="feature-box">
                         <i class="feature-box__icon icon-basic-server2"></i>
                         <h3 class="heading-tertiary u-margin-bottom-small">Database</h3>
                         <p class="feature-box__text">
                             <ul>
-                                <li>PostgreSQL</li>
                                 <li>mySQL</li>
+                                <li>PostgreSQL</li>
                                 <li>MongoDB</li>
-                                <li>Cassandra</li>
                             </ul>
                         </p>
                     </div>
                 </div>
+                <!-- Deployment Skills-->
                 <div class="col-1-of-4">
                     <div class="feature-box">
                         <i class="feature-box__icon icon-basic-cloud"></i>
@@ -115,16 +120,20 @@
                         <p class="feature-box__text">
                             <ul>
                                 <li>System Design</li>
-                                <li>AWS ECS | SQS</li>
+                                <li>Firebase</li>
                                 <li>Docker</li>
                                 <li>Git</li>
                             </ul>
                         </p>
                     </div>
                 </div>
+            <!-- END Row-->
             </div>
         </section>
+        <!-- END Skills Section-->
 
+        <!-- Projects Section | BMR Health Stat Calc, Calorie Counter App,
+             Workout Generator w/ Tabata Timer, Stock Market Quote Tracker -->
         <section class="section-tours" id="projects">
             <div class="u-center-text u-margin-bottom-big">
                 <h2 class="heading-secondary">
@@ -132,154 +141,43 @@
                 </h2>
             </div>
             <div class="row">
-                <div class="col-1-of-3">
+                <!-- Project #1 -->
+                <div class="col-1-of-3 single-col">
                     <div class="card">
-                        <div class="card__side card__side--front card__side--front-1">
-                            <div class="card__picture card__picture--1">
+                        <div class="card__side card__side--front card__side--front-4">
+                            <div class="card__picture card__picture--4">
                                 &nbsp;
                             </div>
-                            <img src="img/gear.png" class="card__svg-icon spin" alt="">
+                            <img src="img/avo.png" class="card__svg-icon card__svg-icon-4 floating" alt="">
                             <h4 class="card__heading">
-
-                                <span class="card__heading-span--1">
-                                    Booking Microservice
+                                <span class="card__heading-span--4">
+                                    Perfect Plate
                                 </span>
                             </h4>
                             <div class="card__details">
                                 <ul>
-                                    <li>AWS SQS</li>
-                                    <li>Docker</li>
-                                    <li>NodeJS</li>
-                                    <li>Cassandra</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="card__side card__side--back card__side--back-1">
-
-                            <div class="card__cta">
-
-                                <div class="card__box">
-                                    <div class="card__description">
-                                        <p>
-                                            A back-end booking system, handles 1500+ requests / sec
-                                        </p>
-                                    </div>
-                                </div>
-                                <a href="https://github.com/aj-4/airbnb-booking-microsvc" class="btn btn--white btn--github">Source Code</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-1-of-3">
-                    <div class="card">
-                        <div class="card__side card__side--front card__side--front-2">
-                            <div class="card__picture card__picture--6">
-                                &nbsp;
-                            </div>
-                            <img src="img/bizman.gif" class="card__svg-icon card__svg-icon-6" alt="">
-                            <div class="card__heading">
-                                <span class="card__heading-span--6">
-                                    Elevator Live Stream
-                                </span>
-                            </div>
-                            <div class="card__details">
-                                <ul>
-                                    <li>React | Redux</li>
-                                    <li>CSS</li>
+                                    <li>React</li>
+                                    <li>CSS | SASS</li>
                                     <li>Express | NodeJS</li>
-                                    <li>Tokbox API</li>
+                                    <li>mySQL</li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="card__side card__side--back card__side--back-6">
+                        <div class="card__side card__side--back card__side--back-4">
                             <div class="card__cta">
                                 <div class="card__box">
                                     <div class="card__description">
                                         <p>
-                                            Fully functional live stream app to practice elevator pitches
+                                            Data populated and cached with REST API calls to USDA database
                                         </p>
                                     </div>
                                 </div>
-                                <a href="#popup-5" class="btn btn--white btn--github">Demo</a>
+                                <a href="#popup-4" class="btn btn--white btn--github">DEMO</a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-1-of-3">
-                    <div class="card">
-                        <div class="card__side card__side--front card__side--front-3">
-                            <div class="card__picture card__picture--3">
-                                &nbsp;
-                            </div>
-                            <img src="img/chat.gif" class="card__svg-icon card__svg-icon-3" alt="">
-                            <div class="card__heading">
-                                <span class="card__heading-span--3">
-                                    Paywall Chat and Pay
-                                </span>
-                            </div>
-                            <div class="card__details">
-                                <ul>
-                                    <li>React | Redux</li>
-                                    <li>Socket.io</li>
-                                    <li>Express | NodeJS</li>
-                                    <li>PostgreSQL</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="card__side card__side--back card__side--back-3">
-                            <div class="card__cta">
-                                <div class="card__box">
-                                    <div class="card__description">
-                                        <p>
-                                            Payment app with live messaging, notifications, friends list
-                                        </p>
-                                    </div>
-                                </div>
-                                <a href="#popup-3" class="btn btn--white btn--github">Demo</a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-                <!--second row-->
-                <div class="row">
-                    <div class="col-1-of-3 single-col">
-                        <div class="card">
-                            <div class="card__side card__side--front card__side--front-4">
-                                <div class="card__picture card__picture--4">
-                                    &nbsp;
-                                </div>
-                                <img src="img/avo.png" class="card__svg-icon card__svg-icon-4 floating" alt="">
-                                <h4 class="card__heading">
-                                    <span class="card__heading-span--4">
-                                        Perfect Plate
-                                    </span>
-                                </h4>
-                                <div class="card__details">
-                                    <ul>
-                                        <li>React</li>
-                                        <li>CSS | SASS</li>
-                                        <li>Express | NodeJS</li>
-                                        <li>mySQL</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="card__side card__side--back card__side--back-4">
-                                <div class="card__cta">
-                                    <div class="card__box">
-                                        <div class="card__description">
-                                            <p>
-                                                Data populated and cached with REST API calls to USDA database
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <a href="#popup-4" class="btn btn--white btn--github">DEMO</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
+                <!-- Project #2 -->
                 <div class="col-1-of-3">
                     <div class="card">
                         <div class="card__side card__side--front card__side--front-2">
@@ -287,11 +185,11 @@
                                 &nbsp;
                             </div>
                             <img src="img/fire.gif" class="card__svg-icon card__svg-icon-2" alt="">
-                            <div class="card__heading">
+                            <h4 class="card__heading">
                                 <span class="card__heading-span--2">
                                     Instalava Picture App
                                 </span>
-                            </div>
+                            </h4>
                             <div class="card__details">
                                 <ul>
                                     <li>React | Redux</li>
@@ -315,43 +213,46 @@
                         </div>
                     </div>
                 </div>
-
-                    <div class="col-1-of-3 single-col">
-                        <div class="card">
-                            <div class="card__side card__side--front card__side--front-5">
-                                <div class="card__picture card__picture--5">
-                                    &nbsp;
-                                </div>
-                                <img src="img/money.gif" class="card__svg-icon card__svg-icon-5 floating" alt="">
-                                <h5 class="card__heading">
-                                    <span class="card__heading-span--5">
-                                        Stock Trader
-                                    </span>
-                                </h4>
-                                <div class="card__details">
-                                    <ul>
-                                        <li>Django</li>
-                                        <li>CSS</li>
-                                        <li>Python</li>
-                                        <li>Jinja</li>
-                                    </ul>
-                                </div>
+                <!-- Project #3 -->
+                <div class="col-1-of-3 single-col">
+                    <div class="card">
+                        <div class="card__side card__side--front card__side--front-5">
+                            <div class="card__picture card__picture--5">
+                                &nbsp;
                             </div>
-                            <div class="card__side card__side--back card__side--back-5">
-                                <div class="card__cta">
-                                    <div class="card__box">
-                                        <div class="card__description">
-                                            <p>
-                                                Stock data pulled in real time from Yahoo Finance API
-                                            </p>
-                                        </div>
+                            <img src="img/money.gif" class="card__svg-icon card__svg-icon-5 floating" alt="">
+                            <h4 class="card__heading">
+                                <span class="card__heading-span--5">
+                                    Stock Trader
+                                </span>
+                            </h4>
+                            <div class="card__details">
+                                <ul>
+                                    <li>Django</li>
+                                    <li>CSS</li>
+                                    <li>Python</li>
+                                    <li>Jinja</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card__side card__side--back card__side--back-5">
+                            <div class="card__cta">
+                                <div class="card__box">
+                                    <div class="card__description">
+                                        <p>
+                                            Stock data pulled in real time from Yahoo Finance API
+                                        </p>
                                     </div>
-                                    <a href="https://github.com/aj-4/stock_trader" class="btn btn--white btn--github">source code</a>
                                 </div>
+                                <a href="https://github.com/aj-4/stock_trader" class="btn btn--white btn--github">source code</a>
                             </div>
                         </div>
                     </div>
+                </div>
+            <!-- END Row-->
+            </div>
         </section>
+        <!-- END Projects Section-->
     </main>
 
     <footer class="footer">
@@ -379,12 +280,13 @@
             <div class="col-1-of-2">
                 <p class="footer__copyright">
                     Site by
-                    <a href=# class="footer__link"> Aaron Pietsch </a>
+                    <a href=# class="footer__link"> Will Colindres </a>
                 </p>
             </div>
         </div>
     </footer>
 
+    <!-- Demo Popup | Instalava -->
     <div class="popup" id="popup-2">
         <div class="popup__content">
             <div class="popup__left">
@@ -404,25 +306,7 @@
         </div>
     </div>
 
-    <div class="popup" id="popup-3">
-        <div class="popup__content">
-            <div class="popup__left">
-                <a href="#projects"><img src="img/pw_demo.gif" alt="Paywaal Demo" class="popup__img"></a>
-            </div>
-            <div class="popup__right">
-                <a href="#section-tours" class="popup__close">&times;</a>
-                <h3 class="heading-secondary-sm popup__header-3">Paywaal</h3>
-                <h3 class="heading-tertiary u-margin-bottom-small">React, Redux, Socket.io</h3>
-                <div class="popup__text u-margin-bottom-medium">
-                    <p>
-                        Chat, notifications, add friends. Live.
-                    </p>
-                </div>
-                <a href="https://github.com/aj-4/hrpaymo" class="btn popup__btn-3">Source Code</a>
-            </div>
-        </div>
-    </div>
-
+    <!-- Demo Popup | Perfect Plate -->
     <div class="popup" id="popup-4">
         <div class="popup__content">
             <div class="popup__left">
@@ -438,27 +322,6 @@
                     </p>
                 </div>
                 <a href="https://github.com/aj-4/perfect-plate" class="btn popup__btn-4">Source Code</a>
-            </div>
-        </div>
-    </div>
-
-    <div class="popup" id="popup-5">
-        <div class="popup__content">
-            <div class="popup__left">
-                <a href="#projects">
-<img src="https://media.giphy.com/media/EBnTOYz5LFZesguqtI/giphy.gif" alt="Elevator Demo" class="popup__img">
-                </a>
-            </div>
-            <div class="popup__right">
-                <a href="#section-tours" class="popup__close">&times;</a>
-                <h3 class="heading-secondary-sm popup__header-5">Elevator</h3>
-                <h3 class="heading-tertiary u-margin-bottom-small">React, Redux, Tokbox API</h3>
-                <div class="popup__text u-margin-bottom-medium">
-                    <p>
-                        Practice your pitch for your company or yourself. Live stream. Get immediate feedback. Watch yourself improve.
-                    </p>
-                </div>
-                <a href="https://github.com/aj-4/elevator" class="btn popup__btn-5">Source Code</a>
             </div>
         </div>
     </div>
